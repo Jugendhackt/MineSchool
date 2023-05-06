@@ -1,0 +1,18 @@
+[
+  {
+    "uuid": "a5ffe1b8-afdf-3063-8f9f-f762581a5d41",
+    "name": "Nn",
+    "created": "2023-05-06 11:41:34 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "15cb646e-6ebc-3fd7-9175-f565ad62ec3c",
+    "name": "list",
+    "created": "2023-05-06 11:41:49 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
