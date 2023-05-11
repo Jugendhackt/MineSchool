@@ -1,143 +1,31 @@
-[13:00:23] [ServerMain/INFO]: Building unoptimized datafixer
-[13:00:24] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:00:25] [ServerMain/INFO]: Loaded 7 recipes
-[13:00:26] [Server thread/INFO]: Starting minecraft server version 1.19
-[13:00:26] [Server thread/INFO]: Loading properties
-[13:00:26] [Server thread/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
-[13:00:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:00:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:00:26] [Server thread/INFO]: Default game type: SURVIVAL
-[13:00:26] [Server thread/INFO]: Generating keypair
-[13:00:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:00:26] [Server thread/INFO]: Using epoll channel type
-[13:00:26] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[13:00:26] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[13:00:26] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.14+6360-094b734
-[13:00:27] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2724c30]
-[13:00:27] [Server thread/INFO]: [GSit] Loading GSit v1.4.4
-[13:00:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:00:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.14+6360-094b734
-[13:00:27] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:00:27] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:00:27] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[13:00:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:00:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:00:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:00:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:00:27] [Server thread/INFO]: Preparing level "world"
-[13:00:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:00:28] [Server thread/INFO]: Time elapsed: 151 ms
-[13:00:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:00:28] [Server thread/INFO]: Time elapsed: 76 ms
-[13:00:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:00:28] [Server thread/INFO]: Time elapsed: 135 ms
-[13:00:28] [Server thread/INFO]: [GSit] Enabling GSit v1.4.4
-[13:00:28] [Server thread/INFO]: [GSit] Das Plugin wurde erfolgreich aktiviert.
-[13:00:29] [Server thread/INFO]: Running delayed init tasks
-[13:00:29] [Server thread/INFO]: Done (3.036s)! For help, type "help"
-[13:00:29] [Server thread/INFO]: Timings Reset
-[13:00:29] [User Authenticator #1/INFO]: UUID of player JoRap17 is 1d009956-0c63-3803-b567-c25420f84540
-[13:00:29] [Server thread/INFO]: JoRap17 joined the game
-[13:00:29] [Server thread/INFO]: JoRap17[/87.129.162.138:52770] logged in with entity id 1 at ([world]69.70112101918727, -53.5, 369.3675551587006)
-[13:00:32] [User Authenticator #1/INFO]: UUID of player Eisberi is c65f46b8-57b7-3404-9679-c3dda02b226b
-[13:00:32] [Server thread/INFO]: Eisberi joined the game
-[13:00:32] [Server thread/INFO]: Eisberi[/87.129.162.138:50772] logged in with entity id 2 at ([world]206.50084053516227, -50.0, -29.930295758231136)
-[13:00:34] [User Authenticator #1/INFO]: UUID of player Nnamllit11 is 1ed26a46-9453-3200-ae4c-77aa5d73dce0
-[13:00:34] [Server thread/INFO]: Nnamllit11 joined the game
-[13:00:34] [Server thread/INFO]: Nnamllit11[/87.129.162.138:61093] logged in with entity id 4 at ([world]2183.286706209305, -57.0, 37.76249998807907)
-[13:00:43] [Server thread/INFO]: Nnamllit11 issued server command: /teleport @s 6 -60 10
-[13:00:43] [Server thread/INFO]: [Nnamllit11: Teleported Nnamllit11 to 6.500000, -60.000000, 10.500000]
-[13:01:06] [User Authenticator #1/INFO]: UUID of player MCHackt is 5ee866c2-8da9-3854-a650-c509ca7ade68
-[13:01:06] [Server thread/INFO]: MCHackt joined the game
-[13:01:06] [Server thread/INFO]: MCHackt[/87.129.162.138:50677] logged in with entity id 7 at ([world]1018.6472651284118, 14.0, 1009.3000000119209)
-[13:01:58] [Server thread/INFO]: Eisberi issued server command: /tp JoRap17
-[13:01:58] [Server thread/INFO]: [Eisberi: Teleported Eisberi to JoRap17]
-[13:02:20] [Server thread/INFO]: Eisberi issued server command: /effect give Eisberi minecraft:invisibility 1000000 100 true
-[13:02:20] [Server thread/INFO]: [Eisberi: Applied effect Invisibility to Eisberi]
-[13:03:00] [Server thread/INFO]: Eisberi issued server command: /tp MCHackt
-[13:03:00] [Server thread/INFO]: [Eisberi: Teleported Eisberi to MCHackt]
-[13:03:52] [Server thread/INFO]: Nnamllit11 lost connection: Disconnected
-[13:03:52] [Server thread/INFO]: Nnamllit11 left the game
-[13:04:33] [Server thread/INFO]: Eisberi issued server command: /tp 0 0 0
-[13:04:33] [Server thread/INFO]: [Eisberi: Teleported Eisberi to 0.500000, 0.000000, 0.500000]
-[13:04:33] [Server thread/WARN]: Eisberi moved too quickly! -1020.9155734956487,-19.131831295463012,-1012.4386449713813
-[13:04:50] [User Authenticator #2/INFO]: UUID of player Eetle is 8ff8dd5b-bc92-3b58-a7fa-47601966e496
-[13:04:50] [Server thread/INFO]: Eetle joined the game
-[13:04:50] [Server thread/INFO]: Eetle[/87.129.162.138:55212] logged in with entity id 19 at ([world]-534.7901480186204, -54.733889636204836, 511.8085071930444)
-[13:04:59] [Server thread/INFO]: Eisberi issued server command: /tp Eetle
-[13:04:59] [Server thread/INFO]: [Eisberi: Teleported Eisberi to Eetle]
-[13:05:42] [Server thread/INFO]: Eisberi issued server command: /fill ~ ~ ~ ~ ~ ~ minecraft:acacia_leaves
-[13:05:42] [Server thread/INFO]: [Eisberi: Successfully filled 1 blocks]
-[13:05:45] [User Authenticator #2/INFO]: UUID of player Nnamllit11 is 1ed26a46-9453-3200-ae4c-77aa5d73dce0
-[13:05:45] [Server thread/INFO]: Nnamllit11 joined the game
-[13:05:45] [Server thread/INFO]: Nnamllit11[/87.129.162.138:61188] logged in with entity id 21 at ([world]6.5, -60.0, 10.5)
-[13:05:57] [Server thread/INFO]: Nnamllit11 lost connection: Disconnected
-[13:05:57] [Server thread/INFO]: Nnamllit11 left the game
-[13:06:15] [Server thread/INFO]: Eisberi issued server command: /fill ~ ~ ~ ~ ~ ~
-[13:06:23] [Server thread/INFO]: Eisberi issued server command: /fill ~ ~ ~ ~ ~ ~ minecraft:acacia_slab
-[13:06:23] [Server thread/INFO]: [Eisberi: Successfully filled 1 blocks]
-[13:06:33] [Server thread/INFO]: MCHackt issued server command: /give MCHackt minecraft:command_block
-[13:06:33] [Server thread/INFO]: [MCHackt: Gave 1 [Command Block] to MCHackt]
-[13:06:36] [Server thread/INFO]: Eetle issued server command: /gamemode survival
-[13:06:36] [Server thread/INFO]: [Eetle: Set own game mode to Survival Mode]
-[13:06:50] [Server thread/INFO]: Eetle issued server command: /gamemode creative
-[13:06:50] [Server thread/INFO]: [Eetle: Set own game mode to Creative Mode]
-[13:07:26] [Server thread/INFO]: Eisberi issued server command: /fill -575 -42 730
-[13:07:41] [Server thread/INFO]: Eisberi issued server command: /fill -553 -42 752 75 -42 730 minecraft:grass_block
-[13:08:10] [Server thread/INFO]: Eisberi issued server command: /fill -553 -42 752 75 -42 730 minecraft:grass_block
-[13:08:17] [Server thread/INFO]: Eisberi issued server command: /chunkinfo
-[13:08:26] [Server thread/INFO]: Eetle issued server command: //copy
-[13:08:41] [Server thread/INFO]: Eetle issued server command: /setblock ~ ~ ~ minecraft:acacia_planks
-[13:08:41] [Server thread/INFO]: [Eetle: Changed the block at -518, -51, 501]
-[13:08:46] [Server thread/INFO]: Eisberi issued server command: /tp 0 0 0
-[13:08:46] [Server thread/INFO]: [Eisberi: Teleported Eisberi to 0.500000, 0.000000, 0.500000]
-[13:08:50] [Server thread/INFO]: Eetle issued server command: //paste
-[13:09:21] [Server thread/INFO]: Eisberi issued server command: /fill ~ ~ ~ ~ ~ ~ minecraft:white_wool
-[13:09:21] [Server thread/INFO]: [Eisberi: Successfully filled 1 blocks]
-[13:11:08] [Server thread/INFO]: Eisberi issued server command: /fill 10 -52 130
-[13:11:35] [Server thread/INFO]: Eisberi issued server command: /summon minecraft:polar_bear 10 -52 130 {NoAI:1b,Glowing:1}
-[13:11:35] [Server thread/INFO]: [Eisberi: Summoned new Polar Bear]
-[13:11:56] [Async Chat Thread - #0/INFO]: <Eetle> -502 57 497
-[13:14:33] [Server thread/INFO]: MCHackt issued server command: /scoreboard players set MCHackt Erfahrung 0
-[13:14:33] [Server thread/INFO]: [MCHackt: Set [Erfahrung] for MCHackt to 0]
-[13:15:18] [Server thread/INFO]: MCHackt issued server command: /fill 1000 11 1000 1007 20 1000 minecraft:quartz_block
-[13:15:18] [Server thread/INFO]: [MCHackt: Successfully filled 64 blocks]
-[13:15:47] [Server thread/INFO]: MCHackt issued server command: /fill 1000 11 1000 1000 20 1013 minecraft:quartz_block
-[13:15:47] [Server thread/INFO]: [MCHackt: Successfully filled 116 blocks]
-[13:16:10] [Server thread/INFO]: MCHackt issued server command: /fill 1007 11 1013 1000 20 1013 minecraft:quartz_block
-[13:16:10] [Server thread/INFO]: [MCHackt: Successfully filled 69 blocks]
-[13:16:19] [User Authenticator #3/INFO]: UUID of player Tanker3 is 2abeb0b6-93e7-3624-b456-f82a3db31394
-[13:16:19] [Server thread/INFO]: Tanker3 joined the game
-[13:16:19] [Server thread/INFO]: Tanker3[/87.129.162.138:45270] logged in with entity id 36 at ([world]2183.9427854576684, -56.756429006275326, 36.3105330614663)
-[13:16:36] [Server thread/INFO]: MCHackt issued server command: /fill 1007 20 1013 1007 11 1007 minecraft:quartz_block
-[13:16:36] [Server thread/INFO]: [MCHackt: Successfully filled 59 blocks]
-[13:16:51] [Server thread/INFO]: MCHackt issued server command: /fill 1007 20 1013 1007 11 1000 minecraft:quartz_block
-[13:16:51] [Server thread/INFO]: [MCHackt: Successfully filled 60 blocks]
-[13:17:32] [Server thread/INFO]: Stopping the server
-[13:17:32] [Server thread/INFO]: Stopping server
-[13:17:32] [Server thread/INFO]: [GSit] Disabling GSit v1.4.4
-[13:17:32] [Server thread/INFO]: [GSit] Das Plugin wurde erfolgreich deaktiviert.
-[13:17:32] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.14+6360-094b734
-[13:17:32] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[13:17:32] [Server thread/INFO]: Saving players
-[13:17:32] [Server thread/INFO]: JoRap17 lost connection: Server closed
-[13:17:32] [Server thread/INFO]: JoRap17 left the game
-[13:17:32] [Server thread/INFO]: Eisberi lost connection: Server closed
-[13:17:32] [Server thread/INFO]: Eisberi left the game
-[13:17:32] [Server thread/INFO]: MCHackt lost connection: Server closed
-[13:17:32] [Server thread/INFO]: MCHackt left the game
-[13:17:32] [Server thread/INFO]: Eetle lost connection: Server closed
-[13:17:32] [Server thread/INFO]: Eetle left the game
-[13:17:32] [Server thread/INFO]: Tanker3 lost connection: Server closed
-[13:17:33] [Server thread/INFO]: Tanker3 left the game
-[13:17:33] [Server thread/INFO]: Saving worlds
-[13:17:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:17:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[13:17:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[13:17:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:17:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:17:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:17:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[13:17:34] [Server thread/INFO]: Flushing Chunk IO
-[13:17:34] [Server thread/INFO]: Closing Thread Pool
-[13:17:34] [Server thread/INFO]: Closing Server
+[12:45:24] [User Authenticator #5/INFO]: UUID of player Frieda is 0eea173c-c09d-3269-9a7c-ed21d6abcfba
+[12:45:24] [Server thread/INFO]: Frieda joined the game
+[12:45:24] [Server thread/INFO]: Frieda[/91.50.184.118:55012] logged in with entity id 794 at ([world]11.173746945107553, -60.0, 11.08125323850919)
+[12:45:52] [Server thread/INFO]: Frieda issued server command: /teleport @s -532 -57 528
+[12:46:55] [Server thread/INFO]: Frieda issued server command: /spawn
+[12:47:08] [Server thread/INFO]: Frieda issued server command: /teleport @s 2412 10 3423
+[12:47:17] [Server thread/INFO]: Frieda issued server command: /spawn
+[12:47:27] [Server thread/INFO]: Frieda issued server command: /teleport @s 2186 -50 48
+[12:47:45] [Server thread/INFO]: Frieda issued server command: /spawn
+[12:47:56] [Server thread/INFO]: Frieda issued server command: /teleport @s 1 -54 114
+[12:49:16] [Server thread/INFO]: Frieda lost connection: Timed out
+[12:49:16] [Server thread/INFO]: Frieda left the game
+[17:36:36] [Server thread/INFO]: Stopping server
+[17:36:36] [Server thread/INFO]: [GSit] Disabling GSit v1.4.4
+[17:36:36] [Server thread/INFO]: [GSit] Das Plugin wurde erfolgreich deaktiviert.
+[17:36:36] [Server thread/INFO]: [SpawnPlugin] Disabling SpawnPlugin v1.0.0
+[17:36:36] [Server thread/INFO]: [Test] Disabling Test v0.1
+[17:36:36] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.14+6360-094b734
+[17:36:36] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:36:36] [Server thread/INFO]: Saving players
+[17:36:36] [Server thread/INFO]: Saving worlds
+[17:36:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:36:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:36:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:36:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:36:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:36:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:36:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:36:37] [Server thread/INFO]: Flushing Chunk IO
+[17:36:37] [Server thread/INFO]: Closing Thread Pool
+[17:36:37] [Server thread/INFO]: Closing Server
